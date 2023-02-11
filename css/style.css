@@ -1,0 +1,68 @@
+body{
+   box-sizing: border-box;
+   background-color: black;
+}
+
+.container{
+   width: 1180px;
+   margin: 0 auto;
+}
+
+.header{
+   color: white;
+   text-transform: uppercase;
+   font-size: 22px;
+   margin-top: 60px;
+   margin-bottom: 75px;
+}
+
+.logo{
+   display: inline-block;
+   margin-right: 170px;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+.nav{
+   display: inline-block;
+   margin-right: 170px;
+}
+
+.nav__item{
+   list-style-type: none;
+   display: inline-block;
+   margin-right: 35px;
+}
+
+.nav__item:last-child{
+   margin-right: 0;
+}
+
+.main__title{
+   background-image: url("../image/kate_leo.png");
+   height: 780px;
+   text-align: center;
+   text-transform: uppercase;
+}
+
+.img{
+   margin-left: -40px;
+   margin-top: 20px;
+   width: 20px;
+   height: 20px;
+}
+
+.title{
+   margin: 0;
+   padding-top: 325px;
+   font-size: 100px;
+   font-weight: 900;
+   color: #ffb822;
+}
+
+.subtitle{
+   font-size: 40px;
+   font-weight: 900;
+   color: #ffffff;
+   margin: 0;
+}
