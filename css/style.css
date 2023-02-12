@@ -21,6 +21,7 @@ body{
    margin-right: 170px;
    margin-top: 0;
    margin-bottom: 0;
+   border: 2px solid blueviolet;
 }
 
 .nav{
@@ -38,11 +39,8 @@ body{
    margin-right: 0;
 }
 
-.main__title{
-   background-image: url("../image/kate_leo.png");
-   height: 780px;
-   text-align: center;
-   text-transform: uppercase;
+.search{
+   border: 2px solid blueviolet;
 }
 
 .img{
@@ -50,6 +48,13 @@ body{
    margin-top: 20px;
    width: 20px;
    height: 20px;
+}
+
+.main__title{
+   background-image: url("../image/kate_leo.png");
+   height: 780px;
+   text-align: center;
+   text-transform: uppercase;
 }
 
 .title{
