@@ -1,14 +1,14 @@
-body{
+body {
    box-sizing: border-box;
    background-color: black;
 }
 
-.container{
+.container {
    width: 1180px;
    margin: 0 auto;
 }
 
-.header{
+.header {
    color: white;
    text-transform: uppercase;
    font-size: 22px;
@@ -16,48 +16,50 @@ body{
    margin-bottom: 75px;
 }
 
-.logo{
+.logo {
    display: inline-block;
-   margin-right: 170px;
+   margin-right: 160px;
    margin-top: 0;
    margin-bottom: 0;
+   padding: 7px;
    border: 2px solid blueviolet;
 }
 
-.nav{
+.nav {
    display: inline-block;
-   margin-right: 170px;
+   margin-right: 160px;
 }
 
-.nav__item{
+.nav__item {
    list-style-type: none;
    display: inline-block;
    margin-right: 35px;
 }
 
-.nav__item:last-child{
+.nav__item:last-child {
    margin-right: 0;
 }
 
-.search{
+.search {
    border: 2px solid blueviolet;
+   padding: 8px;
 }
 
-.img{
+.img {
    margin-left: -40px;
    margin-top: 20px;
    width: 20px;
    height: 20px;
 }
 
-.main__title{
+.main__title {
    background-image: url("../image/kate_leo.png");
    height: 780px;
    text-align: center;
    text-transform: uppercase;
 }
 
-.title{
+.title {
    margin: 0;
    padding-top: 325px;
    font-size: 100px;
@@ -65,7 +67,7 @@ body{
    color: #ffb822;
 }
 
-.subtitle{
+.subtitle {
    font-size: 40px;
    font-weight: 900;
    color: #ffffff;
